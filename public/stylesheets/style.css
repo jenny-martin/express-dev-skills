@@ -13,9 +13,10 @@ a {
 }
 
 .delete-form button {
-  color: red;
+  color:green;
 }
 
 li {
   list-style: none;
 }
+

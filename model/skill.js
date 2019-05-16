@@ -13,7 +13,12 @@ const skills = [
     getOne,
     create,
     deleteOne,
+    update
   };
+
+  function update(id, skill) {
+    skills[id] = skill;
+  }
 
   function deleteOne(id) {
     skills.splice(id, 1);
